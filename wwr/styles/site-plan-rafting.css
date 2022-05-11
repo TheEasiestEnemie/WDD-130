@@ -8,7 +8,7 @@ Fonts are separated by a | */
   --primary-color: #85FFC7   ;
   --secondary-color: #297373 ;
   --accent1-color: #FF8552;
-  --accent2-color: #E6E6E6;
+  --accent2-color: #43c7c1;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Quicksand";
@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: #297373; /* paragraph text on a colored background */ 
   --paragraph-background-color: #85FFC7  ;
   --nav-link-color: #297373;
-  --nav-background-color: #FF8552;
+  --nav-background-color: #43c7c1;
   --nav-hover-link-color: #000000;
   --nav-hover-background-color: #297373;
 }
