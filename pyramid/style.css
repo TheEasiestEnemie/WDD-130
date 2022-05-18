@@ -1,0 +1,45 @@
+body {
+    max-width: 400px;
+    margin: 0 auto;
+}
+#top {
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+    width: 200px;
+    line-height: 100px;
+}
+
+#middle {
+    text-align: center;
+    margin: 0 auto;
+    background-color: blue;
+    width: 300px;
+    line-height: 100px;
+}
+
+#bottom {
+    text-align: center;
+    margin: 0 auto;
+    background-color: green;
+    width: 400px;
+    line-height: 100px;
+}
+
+.yellow {
+    margin-top: 20px;
+    background-color: yellow;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+#left {
+    margin-left: 0%;
+    float: left;
+}
+
+#right {
+    margin-right: 0%;
+    float: right;
+}
