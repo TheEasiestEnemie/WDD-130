@@ -9,7 +9,7 @@ body {
     margin: 10px 100px 10px 100px;
     display: flex;
     flex-flow: column wrap;
-    max-height: 500px;
+    max-height: 400px;
     align-content: center;
     align-items: baseline;
     flex-direction: column;
@@ -47,6 +47,12 @@ h4 {
 img {
     width: 80%;
     max-width: 500px;
+}
+
+@media screen and (max-width: 1200px) {
+    #employee-grid {
+        max-height: 500px;
+    }
 }
 
 @media screen and (max-width: 1012px) {
@@ -101,28 +107,5 @@ img {
 
     footer img {
         max-width: 100px;
-    }
-
-
-    
-    footer {
-        flex-direction: column;
-        height: initial;
-        justify-items: center;
-        margin-top: 25px;
-    }
-    footer a {
-        width: initial;
-        display: block;
-        margin-bottom: 10px;
-
-    }
-    footer img {
-        max-width: 100px;
-    }
-    #logo {
-        margin: 10px auto 10px auto;
-        display: block;
-        width:initial;
     }
 }
