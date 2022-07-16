@@ -173,6 +173,9 @@ footer div {
         margin-bottom: 10px;
 
     }
+    footer img {
+        max-width: 100px;
+    }
     #logo {
         margin: 10px auto 10px auto;
         display: block;

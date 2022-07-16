@@ -1,0 +1,128 @@
+
+body {
+    background-color: #396E94;
+    max-width: 1600px;
+    min-width: 430px;
+}
+
+#employee-grid {
+    margin: 10px 100px 10px 100px;
+    display: flex;
+    flex-flow: column wrap;
+    max-height: 500px;
+    align-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: #D89D6A;
+    border: 5px solid #203e54;
+    border-radius: 3px;
+}
+
+.info-box {
+    width: 27%;
+    margin: 10px;
+    grid-area: initial;
+    background-color: rgba(63, 36, 0, 0);
+    border: 3px solid #6D454C;
+    border-radius: 5px;
+}
+
+p {
+    margin: 5px;
+    font-family: 'crimson text';
+    color: #6D454C;
+}
+
+h4 {
+    width: 90%;
+    margin: 5px auto;
+}
+
+#employee-imgs {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    max-width: 500px;
+}
+
+@media screen and (max-width: 1012px) {
+    #employee-grid {
+        max-height: 550px;
+    }
+}
+
+@media screen and (max-width: 906px) {
+    #employee-grid {
+        max-height: 600px;
+    }
+}
+
+@media screen and (max-width: 834px) {
+    #employee-grid {
+        max-height: 700px;
+    }
+}
+
+@media screen and (max-width: 774px) {
+    #employee-grid {
+        max-height: 850px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #employee-grid {
+        margin: 10px;
+        max-height: initial;
+        text-align: center;
+    }
+
+    .info-box {
+        width: 95%;
+        margin: 5px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: initial;
+        align-items: center;
+        margin-top: 25px;
+
+    }
+    footer a {
+        width: initial;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+
+    footer img {
+        max-width: 100px;
+    }
+
+
+    
+    footer {
+        flex-direction: column;
+        height: initial;
+        justify-items: center;
+        margin-top: 25px;
+    }
+    footer a {
+        width: initial;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+    footer img {
+        max-width: 100px;
+    }
+    #logo {
+        margin: 10px auto 10px auto;
+        display: block;
+        width:initial;
+    }
+}

@@ -77,4 +77,24 @@ h4 {
     .one, .two, .three {
         margin: initial;
     }
+    footer {
+        flex-direction: column;
+        height: initial;
+        justify-items: center;
+        margin-top: 25px;
+    }
+    footer a {
+        width: initial;
+        display: block;
+        margin-bottom: 10px;
+
+    }
+    footer img {
+        max-width: 100px;
+    }
+    #logo {
+        margin: 10px auto 10px auto;
+        display: block;
+        width:initial;
+    }
 }
